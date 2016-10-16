@@ -1,0 +1,12 @@
+../yattag/doc.py
+../yattag/indentation.py
+../yattag/__init__.py
+../yattag/simpledoc.py
+../yattag/__pycache__/doc.cpython-35.pyc
+../yattag/__pycache__/indentation.cpython-35.pyc
+../yattag/__pycache__/__init__.cpython-35.pyc
+../yattag/__pycache__/simpledoc.cpython-35.pyc
+top_level.txt
+dependency_links.txt
+PKG-INFO
+SOURCES.txt

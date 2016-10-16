@@ -1,0 +1,81 @@
+<html><head><title>generated from ARG-101</title><style>
+                        body {
+                            padding-top:40px;
+                            text-align: justify;
+                            max-width: 1600px;
+                            word-wrap: break-word;
+                            font-family: Times;
+                            font-size: 18px;
+                        }
+                        h1 {
+                            font-family: Times;
+                            font-size: 27px;
+                            font-weight: bold;
+                            text-decoration: underline;
+                            margin-top: 0px;
+                            margin-bottom: 0px;
+                            text-align: center;
+                        }
+                        p.question{
+                            font-family: Times;
+                            text-align: left;
+                        }
+                        p.solution{
+                            font-family: Courier;
+                            text-align: left;
+                            margin-left: 5px;
+                            margin-top: 5px;
+                            margin-bottom: 5px;
+                        }
+                        div.image {
+                            margin-top: 18px;
+                            max-height:100%;
+                            max-width:100%;
+                            height:72px;
+                            margin-bottom: 18px;
+                            align-content: left;
+                        }
+
+                        </style></head><body><h1>Assignment 12</h1><br /><p class="question">1)  Write Python program that take input (string) from user convert them into List. Explain how to convert the resulting list back to a string.<br /></p><p class="solution">string = raw_input()
+<br />List   = list(string)
+<br />print ''.join(List)
+<br /></p><div class="image"><img src="/home/siddharth/Archive/BIS LAB/Screenshots/1.png" style="height: 100%; width: 100%; object-fit: contain;" /></div><br /><p class="question">2)  Write Python program that accept input (string) from user, quit them only if they are of at least 3 character long otherwise display message “too small string, please enter again”. (Using break &amp; continue statement)  <br /></p><p class="solution">string = raw_input("Enter a string: ")
+<br />while True:
+<br />	if len(string)&gt;3:break
+<br />	else:
+<br />		string = raw_input("Too small, please enter again: ")
+<br /></p><div class="image"><img src="/home/siddharth/Archive/BIS LAB/Screenshots/2.png" style="height: 100%; width: 100%; object-fit: contain;" /></div><br /><p class="question">3)  Perform following operation:
+(i)Create a string containing at least 5 words and store then in variable.
+(ii)Convert string to list of words and print them.
+(iii)Append element 'last' to the list.<br /></p><p class="solution"># Creating a string of atleast 5 words
+<br />string = raw_input("Enter a string of 5 words: ")
+<br />
+<br /># Converting the string to list of words
+<br />List_of_words = string.split(" ")
+<br />
+<br /># Appending the element "last"
+<br />List_of_words.append("last")
+<br />print List_of_words
+<br /></p><div class="image"><img src="/home/siddharth/Archive/BIS LAB/Screenshots/3.png" style="height: 100%; width: 100%; object-fit: contain;" /></div><br /><p class="question">4)  Write a program to create tuple. Convert tuple to list.<br /></p><p class="solution">_tuple = tuple(raw_input("Enter a sentence: ").split(" "))
+<br />_list = list(_tuple)
+<br />print _list
+<br />
+<br /></p><div class="image"><img src="/home/siddharth/Archive/BIS LAB/Screenshots/4.png" style="height: 100%; width: 100%; object-fit: contain;" /></div><br /><p class="question">5)  Write a Python script that takes input from the user and displays that input back in upper and lower cases.<br /></p><p class="solution">string = raw_input("Enter a sentence: ")
+<br />print string.upper()
+<br />print string.lower()
+<br /></p><div class="image"><img src="/home/siddharth/Archive/BIS LAB/Screenshots/5.png" style="height: 100%; width: 100%; object-fit: contain;" /></div><br /><p class="question">6)  Write a Python program to get the largest number from a list.<br /></p><p class="solution">print max([int(x) for x in raw_input("Enter the numbers: \n").split(" ")])
+<br /></p><div class="image"><img src="/home/siddharth/Archive/BIS LAB/Screenshots/6.png" style="height: 100%; width: 100%; object-fit: contain;" /></div><br /><p class="question">7)  Write a Python program to print a specified list elements.<br /></p><p class="solution">List = range(int(raw_input("Enter lower limit: ")),int(raw_input("Enter upper limit: ")))
+<br />L = [int(x) for x in raw_input("Enter the indices:\n").split(" ") ]
+<br />for j in L:
+<br />	print List[j],
+<br />
+<br /></p><div class="image"><img src="/home/siddharth/Archive/BIS LAB/Screenshots/7.png" style="height: 100%; width: 100%; object-fit: contain;" /></div><br /><p class="question">8)  Write a Python function that takes two lists and returns True if they have at least one common     member.<br /></p><p class="solution">def common(L1, L2):
+<br />	for i in range(0,len(L1)):
+<br />		for j in range(0,len(L2)):
+<br />			if L1[i] == L2[j]:
+<br />				return True
+<br />	return False
+<br />l1 = raw_input().split(" ")
+<br />l2 = raw_input().split(" ")
+<br />print "True" if common(l1,l2) else  "False"
+<br /></p><div class="image"><img src="/home/siddharth/Archive/BIS LAB/Screenshots/8.png" style="height: 100%; width: 100%; object-fit: contain;" /></div><br /><p class="question">9)  Write operations perform on List with example.<br /></p></body></html>

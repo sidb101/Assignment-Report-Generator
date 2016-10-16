@@ -1,0 +1,47 @@
+
+body {
+	padding-top:40px;
+	padding-left: 64px;
+	padding-right: 64px;
+	text-align: justify;
+	max-width: 1600px;
+	word-wrap: break-word;
+	font-family: 'Times';
+	font-size: 18px;
+}
+h1 {
+	font-family: 'Times';
+	font-size: 27px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+header{
+	margin-bottom: 40px;
+}
+p.question{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+span.lefty{
+	text-align: left;
+}
+div.image {
+	margin-top: 18px;
+	height: 180px;
+	width:100%;
+	margin-bottom: 18px;
+	align-content: left;
+}
+span.righty{
+	float: right;
+}
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
